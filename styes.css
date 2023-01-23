@@ -3,6 +3,7 @@ html{
 }
 
 body{
+    overflow: hidden;
     background: rgb(61,218,213);
 background: radial-gradient(circle, rgba(61,218,213,0.8888597675398284) 14%, rgba(163,112,219,0.8804564061952906) 86%);
 height: 100vh;
@@ -51,7 +52,7 @@ span{
     height: 4rem;
 }
 
-#amOrPM{
+#am-pm{
     font-size: 1.5rem;
     position: absolute;
     width: 4rem;
